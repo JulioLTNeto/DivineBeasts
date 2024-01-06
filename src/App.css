@@ -1,17 +1,19 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*
+.sprite_character{
+  background-image: url('./sprites/characters/personagem_masculino.png');
+  display: inline-block;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sprite_character_dimentions {
+  width: 200px;
+  height: 200px;
+  background-position: 0px 0px;
 }
+*/
 
 .App-header {
   background-color: #282c34;
@@ -27,12 +29,25 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*
+@keyframes walk{
+  0% {
+    background-position: 0px 0px;
   }
-  to {
-    transform: rotate(360deg);
+  25% {
+    background-position: -200px 0px;
+  }
+  50%{
+    background-position: -400px 0px;
+  }
+  75%{
+    background-position: -600px 0px;
+  }
+  100%{
+    background-position: 0px 0px;
   }
 }
+
+.sprite_character_dimentions{
+  animation: walk 2s infinite step-start;
+} */

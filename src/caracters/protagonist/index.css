@@ -1,0 +1,82 @@
+.sprite_character{
+    background-image: url('../../sprites/characters/personagem_masculino.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+  }
+  
+.sprite_character_dimentions {
+    width: 200px;
+    height: 200px;
+}
+
+/*Posicao ao ter a seta baixo clicada*/
+
+.sprite_state_0_0 {
+    background-position: 0px 0px;
+}
+
+.sprite_state_1_0 {
+    background-position: -200px 0px;
+}
+
+.sprite_state_2_0 {
+    background-position: -400px 0px;
+}
+
+.sprite_state_3_0 {
+    background-position: -600px 0px;
+}
+
+/*Posicao ao ter a seta esquerda clicada*/
+
+.sprite_state_0_1 {
+    background-position: 0px -200px;
+}
+
+.sprite_state_1_1 {
+    background-position: -200px -200px;
+}
+
+.sprite_state_2_1 {
+    background-position: -400px -200px;
+}
+
+.sprite_state_3_1 {
+    background-position: -600px -200px;
+}
+
+/*Posicao ao ter a direita esquerda clicada*/
+
+.sprite_state_0_2 {
+    background-position: 0px -400px;
+}
+
+.sprite_state_1_2 {
+    background-position: -200px -400px;
+}
+
+.sprite_state_2_2 {
+    background-position: -400px -400px;
+}
+
+.sprite_state_3_2 {
+    background-position: -600px -400px;
+}
+
+/*Posicao ao ter a seta topo clicada*/
+
+.sprite_state_0_3 {
+    background-position: 0px -600px;
+}
+
+.sprite_state_1_3 {
+    background-position: -200px -600px;
+}
+
+.sprite_state_2_3 {
+    background-position: -400px -600px;
+}
+
+.sprite_state_3_3 {
+    background-position: -600px -600px;
+}
